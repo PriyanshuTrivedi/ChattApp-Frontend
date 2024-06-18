@@ -1,0 +1,11 @@
+.backDiv{
+    height: 3rem;
+    width: 3rem;
+}
+.backImg{
+    height: 100%;
+    width: 100%;
+}
+.backDiv:hover{
+    cursor: pointer;
+}

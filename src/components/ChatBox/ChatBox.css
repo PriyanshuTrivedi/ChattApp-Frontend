@@ -1,0 +1,107 @@
+.chatArea{
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 1rem;
+    max-width: 50rem;
+    width: 60%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    min-width: 40rem;
+    background-image: url('./chatBackground.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.user2Name{
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+    height: 5rem;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.chats{
+    box-sizing: border-box;
+    padding: .1rem 2rem;
+    width: 100%;
+    height: 70%;
+    overflow-y: scroll;
+}
+/* .chats::-webkit-scrollbar{
+    visibility: hidden;
+} */
+.sendMsgTextArea{
+    box-sizing: border-box;
+    width: 100%;
+    height: 3.5rem;
+    padding: .5rem;
+    border-radius: 0 0 1rem 1rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sendtextBox{
+    width: 80%;
+    height: 2rem;
+    border-radius: .5rem;
+    padding: .2rem;
+    box-sizing: border-box;
+}
+.imgBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    padding: .3rem .2rem .3rem .4rem;
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+.imgBox:hover{
+    cursor: pointer;
+}
+.sendImg{
+    height: 80%;
+    width: 90%;
+}
+#style-2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #7d7373;
+}
+
+@media(max-width: 1050px){
+    .chatArea{
+        height: 100vh;
+        width: 100vw;
+        margin-left: 0;
+    }
+    .user2Name{
+        justify-content: space-between;
+    }
+}

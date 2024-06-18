@@ -1,0 +1,33 @@
+.searchImgBox{
+    height: 2rem;
+    width: 2rem;
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchImg{
+    height: 80%;
+    width: 80%;
+}
+.searchImgBox:hover{
+    cursor: pointer;
+}
+.contactSearchText{
+    border-radius: .5rem;
+    width: 80%;
+    padding: .2rem;
+    box-sizing: border-box;
+    height: 2rem;
+}
+.searchBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.5rem;
+    width: 100%;
+    background-color: black;
+    /* border-radius: .5rem; */
+    margin-bottom: 1rem;
+}

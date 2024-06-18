@@ -1,0 +1,34 @@
+.name_logout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .5rem;
+    box-sizing: border-box;
+    height: 3rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: .5rem .5rem 0 0;
+}
+.logoutBtn{
+    background-color: white;
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50%;
+    padding: .2rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoutPic{
+    height: 90%;
+    width: 90%;
+}
+.logoutBtn:hover{
+    cursor: pointer;
+}
+.userName{
+    font-size: 22px;
+}

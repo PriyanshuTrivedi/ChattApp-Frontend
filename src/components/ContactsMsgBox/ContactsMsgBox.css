@@ -1,0 +1,45 @@
+.contactsMsgBox{
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    height: 90%;
+    width: 20%;
+    min-width: 20rem;
+    /* padding: 1rem ; */
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: .5rem;
+    background-color: white;
+}
+#style-2_{
+    padding: .5rem;
+    overflow-y: scroll;
+    height: calc(100% - 8rem);
+    width: 100%;
+    box-sizing: border-box;
+}
+#style-2_::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-2_::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+#style-2_::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #7d7373;
+}
+
+@media(max-width: 1050px){
+    .contactsMsgBox{
+        height: 100vh;
+        width: 100vw;
+    }
+}
